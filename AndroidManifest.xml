@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100028603" android:versionName="2.86.3" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.binance.dev" platformBuildVersionCode="34" platformBuildVersionName="14" requiredSplitTypes="base__abi,base__density" splitTypes="">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.FLASHLIGHT"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+  <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+  <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32"/>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+  <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+  <uses-permission android:name="MediaStore.Images.Media.INTERNAL_CONTENT_URI"/>
+  <uses-permission android:name="MediaStore.Images.Media.EXTERNAL_CONTENT_URI"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+  <queries>
+    <intent>
+      <action android:name="android.intent.action.VIEW"/>
+      <category android:name="android.intent.category.BROWSABLE"/>
+      <data android:scheme="https"/>
+    </intent>
+    <package android:name="ua.gov.diia.app"/>
+    <package android:name="io.metamask"/>
+    <package android:name="com.wallet.crypto.trustapp"/>
+    <package android:name="vip.mytokenpocket"/>
+    <package android:name="im.argent.contractwalletclient"/>
+    <package android:name="im.token.app"/>
+    <package android:name="com.medishares.android"/>
+    <package android:name="com.mathwallet.android"/>
+    <package android:name="me.rainbow"/>
+    <package android:name="com.rainbow.walletair"/>
+    <package android:name="io.gnosis.safe"/>
+    <package android:name="co.mona.android"/>
+    <package android:name="com.pillarproject.wallet"/>
+    <package android:name="io.zerion.android"/>
+    <package android:name="com.bitpay.wallet"/>
+    <package android:name="vip.mytokenpocket"/>
+    <package android:name="com.ledger.live"/>
+    <package android:name="com.huobionchainwallet.gp"/>
+    <package android:name="io.eidoo.wallet.prodnet"/>
+    <package android:name="coin98.crypto.finance.media"/>
+    <package android:name="com.coinomi.wallet"/>
+    <package android:name="io.safepal.wallet"/>
+    <package android:name="exodusmovement.exodus"/>
+    <package android:name="com.okinc.okex.gp"/>
+    <package android:name="com.bitcoin.mwallet"/>
+    <package android:name="com.coinstats.crypto.portfolio"/>
+    <package android:name="com.bitkeep.w5"/>
+    <package android:name="com.bitkeep.wallet"/>
+    <package android:name="com.bitkeep.wallet5"/>
+    <package android:name="io.bitkeep.wallet"/>
+    <package android:name="com.bitkeep.app"/>
+    <package android:name="com.bitkeep.w4"/>
+    <package android:name="com.opera.cryptobrowser"/>
+    <package android:name="io.oneinch.android"/>
+    <package android:name="org.telegram.messenger.web"/>
+    <package android:name="org.telegram.messenger"/>
+    <package android:name="com.facebook.katana"/>
+    <intent>
+      <action android:name="android.intent.action.SEND"/>
+      <data android:mimeType="image/*"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.VIEW"/>
+      <category android:name="android.intent.category.BROWSABLE"/>
+      <data android:scheme="mailto"/>
+    </intent>
+    <intent>
+      <action android:name="androidx.camera.extensions.action.VENDOR_ACTION"/>
+    </intent>
+    <package android:name="com.google.android.apps.maps"/>
+    <intent>
+      <action android:name="android.media.browse.MediaBrowserService"/>
+    </intent>
+    <intent>
+      <action android:name="androidx.media2.session.MediaSessionService"/>
+    </intent>
+    <intent>
+      <action android:name="androidx.media2.session.MediaLibraryService"/>
+    </intent>
+    <intent>
+      <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER"/>
+    </intent>
+    <package android:name="com.instagram.android"/>
+    <package android:name="com.facebook.lite"/>
+    <package android:name="com.walletconnect.sample.wallet"/>
+    <package android:name="com.walletconnect.sample.wallet.debug"/>
+    <package android:name="com.walletconnect.sample.wallet.internal"/>
+  </queries>
+  <uses-permission android:name="android.permission.REORDER_TASKS"/>
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+  <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+  <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+  <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30"/>
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30"/>
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+  <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+  <uses-permission android:name="android.permission.RECORD_VIDEO"/>
+  <uses-feature android:name="android.hardware.camera" android:required="true"/>
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+  <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+  <uses-permission android:name="android.permission.READ_CALENDAR"/>
+  <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+  <uses-feature android:name="android.hardware.camera.any"/>
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+  <uses-permission android:name="android.permission.NFC"/>
+  <uses-feature android:name="android.hardware.nfc" android:required="false"/>
+  <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+  <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+  <uses-feature android:name="android.hardware.camera.front" android:required="true"/>
+  <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+  <uses-feature android:glEsVersion="0x131072" android:required="true"/>
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+  <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+  <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+  <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+  <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+  <permission android:name="com.binance.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="0x2"/>
+  <uses-permission android:name="com.binance.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+  <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"/>
+  <permission android:name="com.binance.dev.permission.JPUSH_MESSAGE" android:protectionLevel="0x2"/>
+  <uses-permission android:name="com.binance.dev.permission.JPUSH_MESSAGE"/>
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"/>
+  <application android:theme="ResourceValueType::Reference/2132148524" android:label="ResourceValueType::Reference/2132082993" android:icon="ResourceValueType::Reference/2131820552" android:name="com.walletconnect.getInput" android:sharedUserId="android.uid.system" android:allowBackup="false" android:hardwareAccelerated="true" android:largeHeap="true" android:supportsRtl="true" android:extractNativeLibs="true" android:fullBackupContent="ResourceValueType::Reference/2132279327" android:networkSecurityConfig="ResourceValueType::Reference/2132279315" android:roundIcon="ResourceValueType::Reference/2131820554" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:isSplitRequired="true" android:requestLegacyExternalStorage="true" android:dataExtractionRules="ResourceValueType::Reference/2132279326">
+    <profileable android:shell="false"/>
+    <activity android:name="com.plutus.market.activities.searchmarket.SearchMarketActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.plutus.market.activities.zone.detail.ZoneDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.plutus.market.activities.search.SearchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.plutus.market.activities.search.homepage.HomePageSearchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.plutus.market.activities.editfav.EditFavActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.plutus.market.activities.floatingwindow.MarketFloatingWindowSetting" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.plutus.market.activities.search.MarketSearchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.plutus.market.activities.alert.AddNewAlertActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.plutus.market.activities.alert.singlealert.SingleNewAlertActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.plutus.market.activities.alert.AllNewAlertActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.plutus.market.activities.zone.MarketZoneActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.plutus.market.activities.alert.AllNewAlertEditActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.plutus.market.activities.alert.choosepair.AlertPairChooseActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <service android:name="com.prometheus.account.activities.account.LogoutService" android:enabled="true" android:exported="true"/>
+    <activity android:name="com.prometheus.account.activities.accountactivities.AccountActivityActivity" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.deactivate.DeactivateActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.devicedetail.DeviceDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.devicemanage.DeviceManagementActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.gesture.GestureActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.redpacket.detail.RedPacketDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.redpacket.list.RedPacketListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.prometheus.account.activities.risk.RiskUserRestrictedActivity" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.screenlock.ScreenLockNewActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.prometheus.account.activities.settings.FeeSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.settings.FeeSettingFlutterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x2">
+      <meta-data android:name="io.flutter.app.android.SplashScreenUntilFirstFrame" android:value="true"/>
+      <meta-data android:name="io.flutter.embedding.android.SplashScreenDrawable" android:resource="ResourceValueType::Reference/2131102140"/>
+    </activity>
+    <activity android:name="com.prometheus.account.activities.settings.NotificationsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.settings.NotificationsFlutterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924">
+      <meta-data android:name="io.flutter.app.android.SplashScreenUntilFirstFrame" android:value="true"/>
+      <meta-data android:name="io.flutter.embedding.android.SplashScreenDrawable" android:resource="ResourceValueType::Reference/2131102140"/>
+    </activity>
+    <activity android:name="com.prometheus.account.activities.touchid.TouchIdActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.twofa.email.BindEmailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.twofa.gauth.install.InstallGauthActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.twofa.gauth.tutorial.TutorialActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.prometheus.account.activities.twofa.gauth.UnBindGoogleAuthActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.twofa.mobile.BindMobileActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.twofa.mobile.RegionPrefixActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.prometheus.account.activities.twofa.mobile.UnBindMobileActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.yearreport.YearReportActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.inbox.InboxActivity" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.fire.activities.security.FireSecurityActivity" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.fire.activities.security.FireSecurityAuthActivity" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.fire.activities.twofa.email.FireBindEmailActivity" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.fire.activities.videochat.VideoChatActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148796" android:name="com.prometheus.account.fire.activities.security.viewbase.ViewBaseSecurityActivity" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x34"/>
+    <activity android:name="com.prometheus.account.activities.help.HelpSupportActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.currency.CurrencyActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.daynight.DayNightSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.security.CertificateTrustActivity" android:exported="false"/>
+    <activity android:name="com.prometheus.account.activities.style.ColorPreferenceActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.style.StyleSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.settings.PrivacyPolicyFlutterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.prometheus.account.activities.settings.SettingsActivity" android:exported="true" android:screenOrientation="1" android:configChanges="0x1073759924">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:scheme="sad4f72b2a"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.prometheus.account.activities.timezone.TimeZoneSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.about.AboutActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.about.FirstAboutActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.prometheus.account.activities.language.LanguageActivity" android:exported="false" android:multiprocess="true" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.prometheus.account.activities.account.AccountActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.prometheus.account.activities.accountinfo.AccountDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <receiver android:name="com.prometheus.account.fire.activities.videochat.method.VideoChatChannel$NotificationReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="action_notification_video"/>
+        <category android:name="com.binance.dev"/>
+      </intent-filter>
+    </receiver>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.activities.main.funds.overview.coindetail.OverviewCoinDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.activities.main.funds.overview.coindetail.edit.AVGCostEditActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.activities.fundshistory.detail.deposit.DepositHistoryDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.activities.balance.BalanceActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.insurance.wallet.activities.pnl.PnlModifyAveragePriceActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.insurance.wallet.activities.card.transfer.CardTransferHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.activities.choosecoin.ChooseCoinActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.transfer.SelectCoinActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.insurance.wallet.activities.convert.ConvertBTokenActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.insurance.wallet.activities.convert.ConvertBTokenDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.insurance.wallet.activities.convert.ConvertBTokenHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.insurance.wallet.activities.deposit.DepositWebViewActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.insurance.wallet.activities.main.funds.walletlist.ThirdWalletListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.transfer.UniversalSelectWalletActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.insurance.wallet.activities.thirdwallet.transfer.ThirdWalletTransferHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.activities.main.funds.overview.history.OverViewHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.activities.main.funds.overview.history.filter.OverViewChooseCoinActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.activities.main.funds.walletlist.ThirdWalletTransferActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.activities.pnl.WalletPnLActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.activities.fundshistory.detail.FundHistoryDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.transfer.MainUniversalTransferActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.activities.history.FundingWalletHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.insurance.wallet.activities.history.UniversalHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132149561" android:name="com.insurance.wallet.activities.overview.WalletOverviewNewUserActivity" android:exported="false" android:launchMode="2" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149613" android:name="com.insurance.wallet.activities.report.AnalysisReportActivity" android:exported="false" android:launchMode="2" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149597" android:name="com.insurance.wallet.activities.report.review.AnalysisShareActivity" android:exported="false" android:launchMode="2" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.wallet.cheetah.deposit.choosecoin.ChooseCoinForDepositActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.wallet.cheetah.deposit.DepositActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.wallet.cheetah.withdrawal.choosecoin.ChooseCoinForWithdrawActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.wallet.cheetah.manage.add.AddWithdrawalAddressActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.wallet.cheetah.manage.AddressManageActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.wallet.cheetah.withdrawal.external.AntiFraudActivity" android:exported="true" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.wallet.cheetah.withdrawal.external.WithdrawalSecurityMediumActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.wallet.cheetah.withdrawal.external.WithdrawalActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148928" android:name="com.wallet.cheetah.withdrawal.external.WithdrawalFeedbackActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.wallet.cheetah.withdrawal.external.WithDrawResultActivity" android:exported="false" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.wallet.cheetah.withdrawal.external.WithdrawalErrorHistoryActivity" android:exported="false" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.wallet.cheetah.withdrawal.external.WithDrawScCheckActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.wallet.cheetah.withdrawal.internal.InternalTransferActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.wallet.cheetah.withdrawal.internal.InternalTransferResultActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.wallet.cheetah.withdrawal.internal.InternalTransferDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.binance.margin.history.MarginHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.history.orderdetail.MarginOrderDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.assethistory.MarginLiquidationHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.isolateddetail.MarginIsolatedDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.borrowrepay.MarginBorrowAndRepayActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.margin.search.SearchCrossActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.search.SearchIsolatedActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.convertbnb.MarginConvertBnbActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.convertbnb.MarginConvertBnbDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.convertbnb.MarginConvertBnbHistory" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.pnldetail.MarginAccountPNLDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.balancedetail.MarginBalanceDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.history.activities.SearchTypeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.history.activities.SearchCoinActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.coolingperiod.MarginCoolingPeriodSettingsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.isolated.accountcontrol.settings.IsolatedANCSettingsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.isolated.accountcontrol.settings.IsolatedUpperLimitTierActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.isolated.accountcontrol.settings.IsolatedDeactivatePairsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.autotopup.MarginAutoTopUpActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.isolated.IsolatedPreferenceActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148928" android:name="com.binance.margin.features.preferences.TradePreferencesActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.binance.margin.funds.convert.MarginConvertDebtActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.binance.margin.funds.convert.MarginConvertDebtHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.margin.marketdetail.features.spot.marketdetail.MarginMarketDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412"/>
+    <activity android:name="com.binance.margin.marketdetail.features.spot.landdetail.LandMarketActivity" android:exported="false" android:screenOrientation="0" android:configChanges="0x1073759412"/>
+    <activity android:name="com.binance.margin.marketdetail.features.base.chartstyle.ChartStyleSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412"/>
+    <activity android:name="com.binance.margin.marketdetail.kline.setting.IndexSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412"/>
+    <activity android:name="com.binance.margin.marketdetail.kline.setting.KLineIndicatorListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412"/>
+    <activity android:name="com.binance.margin.marketdetail.kline.setting.AppearanceSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412"/>
+    <activity android:name="com.binance.margin.marketdetail.features.base.chartheight.MarginChartHeightSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412"/>
+    <activity android:name="com.eaas.launcher.activities.main.CorruptedInstallActivity" android:exported="false"/>
+    <meta-data android:name="com.google.android.gms.version" android:value="12451000"/>
+    <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode,face"/>
+    <meta-data android:name="com.binance.dev.open.sdk.version" android:value="ResourceValueType::Float/1065353216"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.eaas.launcher.activities.share.ScreenShotActivity" android:exported="false" android:launchMode="2" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.eaas.launcher.activities.share.ScreenShotActivityWithoutSingleTask" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.eaas.launcher.base.activity.DispatchKycRouterActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.eaas.launcher.base.activity.DispatchWebRouterActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:name="com.eaas.launcher.AndroidOPermissionActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.eaas.launcher.activities.launcher.LauncherActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148727" android:name=".SplashActivity" android:exported="true" android:screenOrientation="1" android:configChanges="0x1073759924">
+      <intent-filter>
+        <action android:name="com.binance.dev.resolver"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="binance" android:host="resolver"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <action android:name="com.binance.dev.SplashActivity"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.eaas.launcher.biz.universaldialog.KYCDialogLandingActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <receiver android:name=".CusterJPushReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="com.bandroid.hydrogen.push.jpush.AbBandroidJpushReceiver"/>
+        <category android:name="com.binance.dev"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name=".ImmedPushReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="com.janus.immed.android.intent.RECEIVE_MESSAGE"/>
+      </intent-filter>
+    </receiver>
+    <meta-data android:name="android.max_aspect" android:value="ResourceValueType::Float/1074203197"/>
+    <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="ResourceValueType::Reference/2131234812"/>
+    <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="ResourceValueType::Reference/2131100205"/>
+    <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="false"/>
+    <meta-data android:name="com.sensorsdata.analytics.android.ShowDebugInfoView" android:value="false"/>
+    <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.binance.dev.fileProvider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="ResourceValueType::Reference/2132279328"/>
+    </provider>
+    <receiver android:name="com.appsflyer.SingleInstallBroadcastReceiver" android:exported="true">
+      <intent-filter>
+        <action android:name="com.android.vending.INSTALL_REFERRER"/>
+      </intent-filter>
+    </receiver>
+    <activity android:theme="ResourceValueType::Reference/2132148240" android:name="com.eaas.launcher.activities.main.MainActivity" android:exported="true" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073762228" android:windowSoftInputMode="0x32">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="binance" android:host="main"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.eaas.launcher.activities.dispatchrouter.FirstDispatchRouterActivity" android:exported="true">
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="https" android:host="app.binance.com"/>
+        <data android:scheme="https" android:host="app.binance.me"/>
+        <data android:scheme="https" android:host="app.binance.info"/>
+        <data android:scheme="binance" android:host="app.binance.com"/>
+        <data android:scheme="bnc" android:host="app.binance.com"/>
+        <data android:scheme="com.binance.app.binance" android:host="app.binance.com"/>
+      </intent-filter>
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="wc"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.binance.android.nezha.secondfloor.viewbase.ViewBaseSecondFloorActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <meta-data android:name="asset_statements" android:resource="ResourceValueType::Reference/2132095025"/>
+    <activity android:theme="ResourceValueType::Reference/2132148804" android:name="com.binance.android.nezha.route.NezhaRouterActivity" android:exported="false"/>
+    <activity android:theme="ResourceValueType::Reference/2132148804" android:name="com.binance.android.nezha.route.NezhaWebRouterActivity" android:exported="false"/>
+    <activity android:theme="ResourceValueType::Reference/2132148804" android:name="com.binance.android.nezha.route.NezhaWebAppRouterActivity" android:exported="false"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.binance.android.nezha.route.NezhaGameRouterActivity" android:exported="false"/>
+    <activity android:theme="ResourceValueType::Reference/2132148529" android:name="com.binance.android.nezha.route.NezhaProxyActivity" android:exported="false" android:launchMode="2" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148796" android:name="com.binance.android.nezha.view.viewbase.ViewBaseActivity" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148796" android:name="com.binance.android.nezha.view.viewbase.LoginViewBaseActivity" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148796" android:name="com.binance.android.nezha.view.viewbase.SwitchAccountViewBaseActivity" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name=".open.BinanceEntryActivity" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="https" android:host="accounts.binance.com" android:path="/oauth/authorize"/>
+        <data android:path="/en/oauth/authorize"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.fairy.lite.biz.marketdetail.page.LiteMarketDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.fairy.lite.biz.marketdetail.news.LiteNewsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.fairy.lite.biz.search.LiteSearchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.fairy.lite.biz.earn.holding.LiteEarnHoldingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.fairy.lite.biz.earn.details.SimpleEarnListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.fairy.lite.biz.earn.details.SimpleEarnDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.eaas.startup.router.activity.NoSupportRouterPathActivity" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.content.internal.editor.activity.ContentEditorActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x19"/>
+    <activity android:name="com.binance.content.internal.feedcenter.FeedCenterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.binance.content.internal.editor.activity.ImageEditorActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.binance.content.internal.activity.ContentMessageCenterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.binance.content.internal.activity.ContentSecretaryCenterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132149330" android:name="com.binance.content.internal.activity.ContentImageUploaderActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148524" android:name="com.binance.content.internal.topics.TopicDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.binance.content.internal.topics.TopicFullListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148524" android:name="com.binance.content.internal.search.ContentSearchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148524" android:name="com.binance.content.internal.activity.ContentBannersActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148524" android:name="com.binance.content.internal.activity.ContentLanguageSettingsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148524" android:name="com.binance.content.internal.home.ContentHomeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148546" android:name="com.binance.content.internal.util.imagepick.ui.ContentImagePickerActivity" android:exported="false" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148524" android:name="com.binance.content.internal.video.activity.ContentVideoDetailActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x4016" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148524" android:name="com.binance.content.internal.featured.FeaturedPageActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132149330" android:name="com.binance.content.internal.live.ContentLiveFlutterActivity" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132149330" android:name="com.binance.content.internal.live.ContentLiveFlutterActivitySingleTask" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132149330" android:name="com.binance.android.live.activity.LiveFlutterActivity" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132149330" android:name="com.binance.android.live.activity.LiveFlutterActivitySingleTask" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132149330" android:name="com.binance.android.live.activity.LiveEditFlutterActivity" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132149330" android:name="com.binance.android.live.activity.LiveChatFlutterActivity" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132149330" android:name="com.binance.android.live.activity.LiveDailyFlutterActivity" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132149330" android:name="com.binance.android.live.activity.LiveInviteBoxFlutterActivity" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132149330" android:name="com.binance.android.live.activity.LiveMysteryBoxFlutterActivity" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x16"/>
+    <service android:name="com.pravera.flutter_foreground_task.service.ForegroundService" android:foregroundServiceType="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/16973839" android:name="com.tencent.rtmp.video.TXScreenCapture$TXScreenCaptureAssistantActivity" android:exported="true" android:launchMode="3"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.eaas.home.v3.services.MoreServicesActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.eaas.home.recommenddeposit.RecommendDepositActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.eaas.home.v3.services.MoreServicesSearchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132149562" android:name="com.eaas.home.v3.services.AddServiceToIndexPageActivity" android:exported="false" android:launchMode="2" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.marketdetail.feature.business.spot.marketdetail.ClassicMarketDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412" android:hardwareAccelerated="true"/>
+    <activity android:name="com.binance.marketdetail.feature.business.spotgrid.SpotGridMarketDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412" android:hardwareAccelerated="true"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.marketdetail.feature.chartsetting.IndexSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.marketdetail.feature.business.spot.marketdetail.LandMarketActivity" android:exported="false" android:screenOrientation="0" android:configChanges="0x1073759412" android:hardwareAccelerated="true"/>
+    <activity android:name="com.binance.marketdetail.feature.business.um.marketdetail.UMClassicMarketDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412" android:hardwareAccelerated="true"/>
+    <activity android:name="com.binance.marketdetail.feature.business.cmgrid.CMGridMarketDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412" android:hardwareAccelerated="true"/>
+    <activity android:name="com.binance.marketdetail.feature.business.umgrid.UMGridMarketDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412" android:hardwareAccelerated="true"/>
+    <activity android:name="com.binance.marketdetail.feature.business.cm.marketdetail.CMMarketDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412" android:hardwareAccelerated="true"/>
+    <activity android:theme="ResourceValueType::Reference/2132148630" android:name="com.binance.marketdetail.feature.business.cm.marketdetail.CMMarketLandActivity" android:exported="false" android:screenOrientation="0" android:configChanges="0x1073759412" android:hardwareAccelerated="true"/>
+    <activity android:theme="ResourceValueType::Reference/2132148630" android:name="com.binance.marketdetail.feature.business.um.marketdetail.UMMarketLandActivity" android:exported="false" android:screenOrientation="0" android:configChanges="0x1073759412" android:hardwareAccelerated="true"/>
+    <activity android:theme="ResourceValueType::Reference/2132148653" android:name="com.binance.marketdetail.feature.chartsetting.KLineIndicatorListActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.marketdetail.feature.chartsetting.KLineIndicatorEditActivityV2" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.marketdetail.feature.multiplechart.MultipleChartsActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.marketdetail.feature.chartsetting.AppearanceSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.marketdetail.feature.chartsetting.ChartHeightSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.marketdetail.feature.business.voption.VOptionsMarketDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412" android:hardwareAccelerated="true"/>
+    <activity android:name="com.market.dashboard.container.component.sortedit.DashboardSortEditActivity" android:exported="false"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.market.dashboard.container.MarketRankingActivity" android:exported="false"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.market.dashboard.search.DashboardMarketSearchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.market.dashboard.container.DashBoardTradingDataActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.market.dashboard.container.DataCenterUiActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.hybrid.activity.WebViewActivity" android:exported="false" android:multiprocess="true" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.hybrid.activity.BardActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <meta-data android:theme="ResourceValueType::Reference/2132148835" android:name="com.google.mlkit.vision.DEPENDENCIES" android:process=":onfido_process" android:value="face,ocr,barcode"/>
+    <activity android:name="com.bandroid.kyc.OnfidoActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/16973839" android:name="com.bandroid.kyc.face.ScanFaceActivity" android:exported="false" android:launchMode="2" android:configChanges="0x1073759924"/>
+    <activity android:name="com.bandroid.kyc.face.ScanFaceResultActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.bandroid.kyc.face.ScanFaceFailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.hydrogen.qrscan.QrScanActivity" android:exported="false" android:multiprocess="true" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.hydrogen.qrscan.scanuniversal.ScanUniversalActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.bridge.twofa.activities.verify.TwoFaV2Activity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.convert.activity.ConvertTradeResultActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.convert.activity.ConvertDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148547" android:name="com.binance.convert.v2.page.ConvertActivityV2" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x19"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.history.EarnTransactionHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.history.analysis.view.EarnHistoryAnalysisActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.simple.subscribe.SimpleTrialFundsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.simple.subscribe.SimpleFlexibleSubscribeSucceedActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.simple.redeem.SimpleFlexibleRedeemActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.simple.redeem.SimpleFlexibleRedeemSucceedActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.lending.LendingFlexibleOrderDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.nft.NftOrderFlexibleDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.nft.NftOrderLockedDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.lending.TrialFundDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.pos.StakingFixedOrderDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.position.simple.SimpleLockedLiteHoldingDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.simple.redeem.SimpleLockedRedeemEarlierActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.simple.redeem.SimpleRedeemResStakeSucceedActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.redeem.simple.SimpleLockedLiteReStakeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.redeem.simple.SimpleLockedLiteRedeemEarlierActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.redeem.simple.SimpleLockedLiteRedeemSucceededActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.dot.DotSlotAuctionDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.earn.position.dot.DotConvertActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:background="ResourceValueType::Reference/2131099666"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.dot.DotConvertSuccessActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.dot.DotClaimRewardsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.earn.position.swap.view.SwapRewardClaimActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.history.SearchEarnHistoryAssetListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.supermining.view.BNBLandingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.supermining.view.BNBSubscribeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.supermining.view.BNBSubscribeSuccessActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.bnbmining.unstake.BNBMiningRedeemActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.bnbmining.unstake.BNBMiningRedeemSucceededActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.eth2.v2.ETHRewardHistoryActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.eth2.v2.ETH2StakeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.eth2.v2.ETH2SuccessActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.eth2.v2.ETH2SecondConfirmActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.earn.lite.subscribe.simple.SimpleTierRateDetailFlutterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.simple.view.SimpleProductsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.simple.subscribe.SimpleBuyV2Activity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.simple.subscribe.SimpleAutoSubscribeConfirmationActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.simple.subscribe.SimpleLockedSubscribeSucceedActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.pool.view.PoolHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.home.main_v4b.view.EarnProductAggregatedV4Activity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.swap.view.SwapEarningsBreakdownActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.redeem.simple.SimpleFlexibleLiteRedeemActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.redeem.simple.SimpleFlexibleLiteRedeemSucceedActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.subscribe.eth2.v2.ETHLiteV2ConfirmActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.subscribe.eth2.v2.ETH2LiteRedeemConfirmActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.subscribe.eth2.v2.ETHLiteV2Activity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.subscribe.eth2.v2.ETHLiteV2WrapActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.redeem.supermining.BNBMiningLiteRedeemSucceedActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.subscribe.supermining.v3.BNBMiningLiteStakeV3Activity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.subscribe.supermining.v3.BNBMiningLiteConfirmPageV3Activity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.subscribe.simple.SimpleLockedLiteSubscribeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.subscribe.simple.SimpleLockedLiteSuccessActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.subscribe.simple.SimpleLockedLiteConfirmActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.redeem.supermining.BNBMiningLiteRedeemV2Activity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.subscribe.supermining.BNBMiningLiteStakeSucceededActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.position.savings.view.SavingsLiteFlexibleOrderDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.dual.DualInvestmentDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.dual.DualInvestmentAutoCompoundDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.dual.DualProductProjectsActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.dual.DualInvestmentMainActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.earn.subscribe.dual.DualInvestmentAssetActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.dual.DualDepositSucceedActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.dual.beginner.view.DualInvestmentBeginnerActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.dual.autocompound.view.DualAutoCompoundProActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.dual.autocompound.view.DualAutoCompoundActiveActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.dual.autocompound.view.DualAutoCompoundActiveConfirmActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.earn.subscribe.dual.DualQuizFlutterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.subscribe.simple.SimpleFlexibleLiteSuccessActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.lite.subscribe.simple.SimpleFlexibleLiteConfirmActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.loan.landing.view.LoanLandingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.loan.activity.LoanAssetOverViewActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.loan.activity.LoanBorrowActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.earn.loan.activity.LoanBorrowSucceededActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.loan.activity.LoanRenewActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.loan.activity.LoanAdjustLtvActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.loan.activity.LoanVipDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.loan.activity.LoanRepayActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.loan.activity.LoanOngoingOrderDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.loan.activity.LoanOngoingFlexibleOrderDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.dashboard.search.view.EarnDashboardSearchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.dashboard.one_click.view.EarnOneClickActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.earn.redeem.OneKeyRedeemActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.redeem.OneKeyRedeemSuccessActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.redeem.LockedRedeemConfirmActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.earn.subscribe.common.ProductIntroFlutterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.history.loan.view.LoanHistoryActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.loan.activity.LoanFlexibleRepayActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.earn.position.autoinvest.view.IndexLinkedDetailFlutterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.loan.activity.LoanFlexibleAdjustLtvActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.position.range_bound.RangeBoundOrderDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.binance.earn.subscribe.eth2.BETHDatePickerActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.dashboard.v2.view.EarnPositionListActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.eth2.v2.landing.view.ETHStakingLandingActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.eth2.v2.redeem.view.EarnEthStakingRedeemActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.earn.subscribe.eth2.v2.redeem.view.EarnEthStakingRedeemSuccessActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.janus.login.CountryCodeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.janus.login.pwdmodify.ModifyPasswordActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.janus.login.ForbiddenActivity" android:launchMode="2" android:configChanges="0x1073759924"/>
+    <activity android:name="com.janus.login.inborn.twofa.Force2FAGuideActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.janus.login.inborn.unbind.ForceUnbindMobileActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.janus.login.NativeLoginHoldActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.janus.login.NativeRegisterWelHoldActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.ocbs.lite.activity.LiteOcbsSelectCryptoActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.ocbs.lite.activity.LiteOcbsTradeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x2"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.ocbs.lite.activity.LiteOcbsChannelOfferActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.ocbs.lite.activity.FiatChooseActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <meta-data android:name="binance.pay.sdk.version" android:value="ResourceValueType::Float/1077936128"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name=".pay.BinancePaySDKEntryActivity" android:exported="true" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name=".pay.BinancePayEntryActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name=".pay.wallet.activity.BinancePay2FAActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name=".pay.main.activity.UnlockTransitionActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.main.activity.BinancePayResultActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.main.activity.PaymentChooseCoinActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.choosecoin.ChooseCoinFromBalanceActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.wallet.activity.BinancePayMyPayLimitsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.wallet.activity.BinancePayChangePinActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x3"/>
+    <activity android:name=".pay.wallet.activity.BinancePaySettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.wallet.activity.BinancePayPriorityOrderActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.wallet.activity.BiometricSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.wallet.activity.BinancePayHistory" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924">
+      <meta-data android:name="io.flutter.app.android.SplashScreenUntilFirstFrame" android:value="true"/>
+      <meta-data android:name="io.flutter.embedding.android.SplashScreenDrawable" android:resource="ResourceValueType::Reference/2131102140"/>
+    </activity>
+    <activity android:name=".pay.wallet.activity.BinanceTransactionDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924">
+      <meta-data android:name="io.flutter.app.android.SplashScreenUntilFirstFrame" android:value="true"/>
+      <meta-data android:name="io.flutter.embedding.android.SplashScreenDrawable" android:resource="ResourceValueType::Reference/2131102140"/>
+    </activity>
+    <activity android:name=".pay.c2c.activity.PaymentIndividualReceiveActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.c2c.activity.PaymentIndividualPayActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x48"/>
+    <activity android:name=".pay.c2c.activity.PaymentIndividualSetActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.c2c.activity.BinancePayDefrayActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x19"/>
+    <activity android:name=".pay.cryptobox.activity.PaymentCryptoBoxActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x18"/>
+    <activity android:name=".pay.cryptobox.activity.CreateCryptoBoxActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name=".pay.cryptobox.activity.CryptoBoxHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924">
+      <meta-data android:name="io.flutter.app.android.SplashScreenUntilFirstFrame" android:value="true"/>
+      <meta-data android:name="io.flutter.embedding.android.SplashScreenDrawable" android:resource="ResourceValueType::Reference/2131102140"/>
+    </activity>
+    <activity android:name=".pay.cryptobox.activity.CryptoBoxDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924">
+      <meta-data android:name="io.flutter.app.android.SplashScreenUntilFirstFrame" android:value="true"/>
+      <meta-data android:name="io.flutter.embedding.android.SplashScreenDrawable" android:resource="ResourceValueType::Reference/2131102140"/>
+    </activity>
+    <activity android:name=".pay.home.BinancePayHomeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name=".pay.wallet.activity.BinancePayHelpActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name=".pay.checkout.activity.PreCheckoutActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name=".pay.checkout.activity.PreCheckoutTransparentActivity" android:exported="false" android:launchMode="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.giftcenter.activity.BinancePayGiftCenterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name=".pay.wallet.activity.CreatePinActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x3"/>
+    <activity android:name=".pay.remittance.activity.RemittanceOrderActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name=".pay.remittance.activity.RemittanceResultActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.remittance.activity.RemittanceChooseCountryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.remittance.activity.RemittanceRecipientInfoFormActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.remittance.activity.RemittanceHomeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.remittance.activity.RemittanceRecipientActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.remittance.activity.RemittanceHistoriesActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.remittance.activity.RemittanceHistoryDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name=".pay.home.BinancePayHomeInterceptorActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.mobiletopup.activity.PaymentChooseAreaCodeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.mobiletopup.activity.PaymentMobileTopUpHistoriesActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.mobiletopup.activity.MobileTopUpProductListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.mobiletopup.activity.MobileTopUpBundleListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name=".pay.mobiletopup.activity.PaymentMobileTopUpActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x3"/>
+    <activity android:name=".pay.mobiletopup.activity.MobileTopUpResultActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x3"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name=".pay.cryptobox.activity.OpenCryptoBoxActivityInterceptor" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132150129" android:name=".pay.cryptobox.activity.OpenCryptoBoxActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x3"/>
+    <activity android:name=".pay.cryptobox.activity.CryptoBoxResultActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <provider android:name=".pay.utils.PaymentProvider" android:exported="false" android:authorities="com.binance.dev.paymentFileProvider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="ResourceValueType::Reference/2132279325"/>
+    </provider>
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyC376TZhOhq9KO96gLViLa5KHoQ1RvpmwU"/>
+    <activity android:name="com.binance.c2c.merchant.FiatMerchantTradeHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.merchant.FiatMerchantStoreListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.orderdetail.qrcode.QrcodeOrderConfirmActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.profession.blocked_user.BlockedUserListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.alert.FiatAlertListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.alert.recurring.FiatRecurringAlertsListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.alert.recurring.FiatRecurringCreateActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.alert.FiatAlertCreateActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.advertisement.country.FiatSelectAvailableRegionActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.orderdetail.sell.FiatOrderDetailSellHelpActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.follows.view.FiatFollowsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.receipt.methodlist.FiatTrade45ListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.orderdetail.FiatOrderThirdScanActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.orderdetail.FiatThirdOrderDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.orderdetail.PaymentHelpActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.orderdetail.FiatOrderAppealDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.order_history.ui.FiatOrderAppealListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.orderdetail.complete.FiatOrderCompletedGuideActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.orderdetail.complete.FiatOrderConvertSurpriseActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.receipt.addmethod.FiatAddTrade45MethodsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.receipt.method.FiatReceiptMethodActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.orderdetail.FiatOrderDetailActivity2" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.orderdetail.cancelorder.FiatOrderDetailCancelActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.binance.c2c.orderdetail.evaluation.FiatEvaluationDetailActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.merchant.FiatMerchantFeedbackActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.merchant.FiatMerchantHiddenFeedbackActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.order_history.ui.FiatOrderHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.order_history.ui.OrderUnreadMessageListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.help.FiatHelpCenterActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.merchant.FiatMerchantDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.merchant.FiatMerchantInfoActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.profession.restriction.FiatRestrictionRemovalCenterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.appeal.FiatAppealTypeBActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.appeal.FiatRefundActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.appeal.FiatAppealActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.appeal.FiatAppealSolutionsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.appeal.FiatAppealProvideActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.appeal.FiatAppealHistoryActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.advertisement.post.FiatAdsPostActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.advertisement.post.FiatStoreListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.advertisement.post.FiatStoreSearchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.advertisement.post.FiatAdsSuccessActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.advertisement.manager.MyAdsHistoryListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.advertisement.manager.FiatAdsFastEditActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.advertisement.manager.FiatAdsDetailEditActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.advertisement.manager.FiatAdsEditActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.advertisement.manager.FiatAdsDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.advertisement.dialog.FiatTradeRequirementsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.main.FiatMainActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.trade.filter.FiatAdsFilterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.neworder.FiatPlaceBuyOrderActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x20"/>
+    <activity android:name="com.binance.c2c.neworder.FiatFindBetterOfferActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x20"/>
+    <activity android:name="com.binance.c2c.neworder.FiatPlaceSellOrderActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x20"/>
+    <activity android:name="com.binance.c2c.neworder.FiatOrderSelectPaymentActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.c2c.chat.activity.FiatChatActivity" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x2"/>
+    <activity android:name="com.binance.c2c.chat_new.ui.C2CChatActivity" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x2"/>
+    <activity android:name="com.binance.c2c.chat_new.ui.C2CChatActivity" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x2"/>
+    <activity android:name="com.binance.c2c.picture_viewer.PictureViewerActivity" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x2"/>
+    <activity android:name="com.binance.c2c.chat.activity.FiatChatPicturePreviewActivity" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x2"/>
+    <activity android:name="com.binance.c2c.profession.notification.FiatNotificationSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.profession.FiatSelectAdsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.binance.c2c.advertisement.share.ScanAdvQrCodeResultActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892"/>
+    <activity android:name="com.binance.c2c.advertisement.share.AdSharingCodeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892"/>
+    <activity android:name="com.binance.c2c.user.FiatUserCenterActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759892" android:windowSoftInputMode="0x18"/>
+    <activity android:theme="ResourceValueType::Reference/2132149560" android:name="com.binance.c2c.media.MediaPlayerActivity" android:exported="false" android:configChanges="0x1073759892"/>
+    <activity android:name="com.binance.c2c.main.FiatSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.trade.payment_detail.ui.PaymentDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.order_history.search.FiatOrderSearchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.trade.cash.CashTradeSearchLocationActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.profession.antiscam.presentation.ui.AntiScamQuizActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.profession.recentlyviewed.presentation.ui.RecentlyViewedAdsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.trade.campaign.activities.C2CCampaignActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.swap.FiatSwapMainActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759908"/>
+    <activity android:name="com.binance.c2c.swap.FiatSwapDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c.receipt.select.FiatSelectPaymentMethodActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.binance.content.share.internal.CommonShareActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.deposit.common.activity.DepositEntryTestActivity"/>
+    <activity android:name="com.binance.deposit.common.activity.DepositLandingPageActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148563" android:name="com.binance.deposit.identity.VerificationActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.deposit.cj.verification.CJAdditionalVerificationActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.deposit.capitual_ars.verification.ArsAdditionalVerificationActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.binance.deposit.cj.activity.CJPaymentDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.deposit.common.activity.DepositInputActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.deposit.vnd.VndPaymentDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.deposit.capitual_ars.CapitualArsPaymentDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.insurance.withdraw.common.activity.WithDrawLandingPageActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.paymentsdk.bindcard.helper.country.CountrySelectActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.paymentsdk.bindcard.FiatPaymentBindBuyCardActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.binance.paymentsdk.bindcard.FiatPaymentBindSellCardActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.binance.paymentsdk.bindcard.FiatPaymentBindRecurringBuyCardActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.binance.paymentsdk.cardmanagement.FiatPaymentMethodActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.paymentsdk.cardmanagement.FiatManageCardForSellActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <meta-data android:name="com.google.android.gms.wallet.api.enabled" android:value="true"/>
+    <activity android:name="com.binance.ocbs.activity.OcbsMainActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.OcbsRevampMainActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.OcbsOrderDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.OcbsOrderResultActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.PaymentCurrencyActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.OcbsSelectCryptoActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.OcbsSelectCryptoSellActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.OcbsNewAggregatePaymentActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.OcbsSellPaymentActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.recurring.details.OcbsRecurringDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.recurring.details.OcbsRecurringTxDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.history.exchange.OcbsExchangeDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.sell.OcbsSellOrderResultActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.recurring.activity.OcbsRecurringSelectCryptoActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.recurring.activity.OcbsRecurringMainActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.recurring.activity.OcbsRecurringPaymentActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.BuyWithBankTransferDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.OcbsInswitchBankTransferDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.FiatOnlineBankingProcessingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.fiat_history.details.FiatDepositAndWithdrawHistoryDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.history.FiatAllHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.send_money.SendMoneyDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.landing.FiatLandingActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148564" android:name="com.binance.ocbs.activity.OcbsDialogActivity" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.OcbsAlertListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.ocbs.activity.OcbsCommonActivity" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.marketdetail.activity.MockUMMarketDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412"/>
+    <activity android:name="com.binance.mock.marketdetail.activity.MockCMMarketDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759412"/>
+    <activity android:theme="ResourceValueType::Reference/2132148629" android:name="com.binance.mock.marketdetail.activityland.MockCMMarketLandActivity" android:exported="false" android:screenOrientation="0" android:configChanges="0x1073759412"/>
+    <activity android:theme="ResourceValueType::Reference/2132148629" android:name="com.binance.mock.marketdetail.activityland.MockUMMarketLandActivity" android:exported="false" android:screenOrientation="0" android:configChanges="0x1073759412"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.um.feature.history.FutureHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.um.feature.preference.FuturePreferenceActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.finance.um.feature.history.orderhistory.FutureOrderDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.um.feature.preference.priceprotect.FuturePriceProtectionActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.um.feature.preference.multiassets.FutureAssetModeActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.um.feature.openorder.branch.tpsl.FutureOrderStrategyDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.um.feature.funds.converter.FutureAssetConvertActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148542" android:name="com.finance.um.feature.funds.converter.FutureAssetConvertSucceedActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.finance.um.feature.preference.UmTradeLayoutSwitchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.finance.um.feature.preference.confirmation.UmOrderConfirmationActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.finance.um.feature.preference.trademode.UmTradeModeSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148542" android:name="com.finance.um.feature.tradeanalysis.UmTradeAnalysisActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148631" android:name="com.finance.um.feature.bigdata.activity.UmTradeDataShareActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.um.feature.arbitrage.detail.UmArbitrageDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.finance.um.feature.lite.features.preference.UmLiteTradeModeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.futures.common.feature.heatmap.HeatmapActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.finance.um.feature.tutorial.newuser.UmNewUserTutorialActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.um.feature.twap.history.detail.TwapHistoryDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.um.feature.twap.running.detail.TwapRunningDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.delivery.feature.history.DeliveryHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.delivery.feature.history.DeliveryOrderDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.delivery.feature.settings.DeliveryPreferenceActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.delivery.feature.settings.CmTradeModeSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.delivery.feature.settings.DeliveryPriceProtectionActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.delivery.feature.tpsl.DeliveryOrderStrategyDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.delivery.feature.preference.CmOrderConfirmationActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.delivery.feature.converter.DeliveryAssetConvertActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148542" android:name="com.binance.delivery.feature.converter.DeliveryAssetConvertSucceedActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.delivery.feature.settings.CmTradeLayoutSwitchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.delivery.feature.settings.CmPriceAmendSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148542" android:name="com.binance.delivery.feature.history.CmTradeAnalysisActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148631" android:name="com.binance.delivery.feature.bigdata.CmTradeDataShareActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.delivery.feature.arbitrage.detail.CmArbitrageDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.delivery.feature.tutorial.newuser.CmNewUserTutorialActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.leaderboard.features.FuturesLeaderBoardActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.leaderboard.features.settings.LeaderBoardUserSettingsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.leaderboard.features.profile.LeaderBoardProfileActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.leaderboard.features.profile.follow.LeaderBoardProfileFollowingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.finance.leaderboard.features.trader.LeaderboardPortfolioActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.tulip.voptions.feature.trade.pro.VOptionsTradeActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.tulip.voptions.feature.trade.lite.VOptionsLiteTradeActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.tulip.voptions.feature.history.VOptionsHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.tulip.voptions.feature.history.VOptionsOrderDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.tulip.voptions.feature.market.VOptionsPreferenceActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.tulip.voptions.feature.trade.lite.VOptionsLiteOrderPlacedActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.tulip.voptions.feature.column.VOptionsColumnSettingActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.tulip.voptions.feature.trade.pro.VOptionsTradeLayoutSwitchActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.tulip.voptions.feature.account.ui.VoptionsOpenAccountActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.tulip.voptions.feature.market.pro.guide.VOptionNewerTipActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.tulip.voptions.feature.discover.ui.VOptionsDiscoverActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.tulip.voptions.feature.bigdata.ui.VOptionsChooseUnderlyingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.mock.um.history.MockFutureHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.mock.um.main.MockMainActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.um.history.MockFutureOrderDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.um.preference.multiassets.MockFutureAssetModeActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.binance.mock.um.features.tpsl.MockFutureOrderStrategyDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.binance.mock.um.preference.MockUmTradeLayoutSwitchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.um.preference.MockBnbFutureOrderConfirmationActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.um.preference.MockBnbFuturePreferenceActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.um.preference.MockBnbFutureTradeModeSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.um.discover.MockLiteDiscoveryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.cm.activities.history.MockDeliveryHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.cm.activities.history.MockDeliveryOrderDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.cm.activities.settings.MockDeliveryPreferenceActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.cm.activities.settings.MockCmTradeModeSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.cm.features.tpsl.MockDeliveryOrderStrategyDetailsActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.binance.mock.cm.features.preference.MockCmOrderConfirmationActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.cm.activities.settings.MockCmTradeLayoutSwitchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.futures.common.preference.MockFuturePreferenceNotificationActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.futures.common.preference.MockPositionTabLayoutSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.mock.futures.common.activity.MockSelectCoinActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.lily.strategy.feature.trade.spotgrid.running.detail.SpotGridOrderDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.lily.strategy.feature.trade.spotgrid.history.detail.SpotGridHistoryDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149069" android:name="com.lily.strategy.feature.trade.spotgrid.trade.ui.guider.SpotGridGuideActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.lily.strategy.feature.trade.umgrid.running.detail.UmFuturesGridOrderDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.lily.strategy.feature.trade.umgrid.history.detail.FuturesGridHistoryDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.lily.strategy.feature.trade.umgrid.trade.ui.guider.UmGridGuideActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.lily.strategy.feature.trade.umgrid.history.list.UmGridHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.lily.strategy.framework.share.GridSharedActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.lily.strategy.feature.StrategyHomeActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.lily.strategy.feature.wallet.occupation.StrategyOccupationActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.lily.strategy.feature.trade.cmgrid.running.detail.CmGridOrderRunningDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.lily.strategy.feature.trade.cmgrid.history.detail.CMGridHistoryDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.binance.futures.common.feature.placeorder.FutureTermActivity" android:exported="false" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149564" android:name="com.binance.futures.common.framework.share.FutureShareActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.futures.common.feature.preference.ui.FuturePreferenceNotificationActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.futures.common.feature.coolingperiod.ui.CoolingPeriodSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.futures.common.feature.bigdata.ui.FutureBigDataNewActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.futures.common.feature.pnlanalysis.ui.FuturePnlAnalysisActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.binance.futures.common.feature.pnlanalysis.ui.share.FuturesPnlAnalysisShareActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.futures.common.feature.history.ui.FuturesBaseTradeAnalysisActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148631" android:name="com.binance.futures.common.feature.trade.ui.FutureTradeAnalysisShareActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.futures.common.feature.tutorial.ui.FutureNewUserLandingIntroActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.futures.common.feature.tutorial.ui.FutureNewUserLandingTaskListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.futures.common.feature.bigdata.ui.arbitrage.detail.FuturesArbitrageSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.futures.common.feature.preference.ui.PositionTabLayoutSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.spot.feature.order.SpotOrderActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.binance.spot.feature.order.orderdetail.SpotOrderDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.spot.feature.lvtfund.balance.SpotTokenBalanceActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.spot.feature.preference.SpotTradeLayoutSwitchActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.spot.feature.preference.SpotTradePreferencesActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.spot.feature.preference.orderconfirm.SpotOrderConfirmationActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.spot.feature.order.pairchooser.PairChooseActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:theme="ResourceValueType::Reference/2132148535" android:name="com.binance.spot.feature.order.tradeanalysis.SpotTradeAnalysisActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148543" android:name="com.binance.spot.feature.heatmap.HeatmapActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.finance.business.feature.compliance.RouteComplianceWarningActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.finance.business.framework.share.activity.ShareActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.finance.business.feature.strategy.agreement.GridAgreementActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.finance.business.feature.announcementhistory.FinanceAnnouncementHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.binance.finance.framework.widget.pager.PHActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.finance.framework.widget.pager.activity.MockAppearanceSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.finance.framework.widget.pager.activity.MockChartStyleSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.finance.framework.widget.pager.activity.MockKLineIndicatorEditActivityV2" android:screenOrientation="1" android:configChanges="0x1073759924" android:windowSoftInputMode="0x32"/>
+    <activity android:name="com.binance.finance.framework.widget.pager.activity.MockKLineIndicatorListActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.finance.framework.widget.pager.activity.MockIndexSettingActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.binance.share.internal.CommonShareActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:name="com.dwallet.connect.sessionmanager.activity.ConnectSessionManagerActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.android.dapp.wallet.activity.backup.BackupSafeTipActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.android.dapp.wallet.activity.fixdupaccount.DulDWalltListActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.android.dapp.wallet.activity.importdwallet.DWalletImportFromDriverActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.android.dapp.wallet.activity.importdwallet.DWalletImportFromPhraseActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.android.dapp.wallet.activity.importdwallet.DWalletImportMultiWalletActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.android.dapp.wallet.activity.WalletEntranceActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.android.dapp.wallet.activity.backup.BackupManuallyConfirmActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.android.dapp.wallet.activity.backup.BackupManuallyShowActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.android.dapp.wallet.activity.setting.WalletNewSettingsActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.android.dapp.wallet.activity.setting.WalletNewRecoveryPhraseActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.android.dapp.wallet.activity.setting.WalletResetActivity" android:exported="false" android:screenOrientation="1"/>
+    <receiver android:name="com.android.dapp.wallet.manager.WalletAlertReceiver" android:exported="false"/>
+    <activity android:name="com.mpc.wallet.view.activity.WalletConnectActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.mpc.wallet.view.activity.WalletEntranceActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.mpc.wallet.view.activity.WalletRestoreActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.mpc.wallet.view.activity.settings.WalletSettingsActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.mpc.wallet.view.activity.settings.WalletSettingsBackupManageActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.mpc.wallet.view.activity.settings.WalletSettingsEscapeActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.mpc.wallet.view.activity.settings.WalletPrivateKeyListActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.mpc.wallet.view.activity.WalletBackupActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.mpc.wallet.view.activity.WalletVerificationActivity" android:exported="false" android:screenOrientation="1" android:windowSoftInputMode="0x16"/>
+    <activity android:name="com.mpc.wallet.view.activity.WalletNormalActivity" android:exported="false" android:screenOrientation="1"/>
+    <activity android:name="com.binance.flutter.dev.FlutterDemoActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073758132">
+      <meta-data android:name="flutterEmbedding" android:value="2"/>
+      <meta-data android:name="io.flutter.app.android.SplashScreenUntilFirstFrame" android:value="true"/>
+      <meta-data android:name="io.flutter.embedding.android.SplashScreenDrawable" android:resource="ResourceValueType::Reference/2131100875"/>
+    </activity>
+    <activity android:name="com.binance.c2c_pass.trade.C2CMainActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c_pass.order_history.C2COrderHistoryActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c_pass.address.C2CAddNewAddressActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.c2c_pass.order_detail.presentation.ui.OrderDetailActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:name="com.binance.connect.webview.activity.FiatWebViewActivity" android:exported="false" android:configChanges="0x1073759924"/>
+    <activity android:name="com.bandroid.camera.CameraActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1073759924"/>
+    <activity android:theme="ResourceValueType::Reference/2132149563" android:name="com.bandroid.camera.MicroblinkImageCaptureActivity" android:exported="false"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaBaseActivity" android:exported="false" android:screenOrientation="1" android:configChanges="0x1776"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaSingleTaskActivity0" android:exported="false" android:taskAffinity=".NezhaUI0" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaSingleTaskActivity1" android:exported="false" android:taskAffinity=".NezhaUI1" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaSingleTaskActivity2" android:exported="false" android:taskAffinity=".NezhaUI2" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaSingleTaskActivity3" android:exported="false" android:taskAffinity=".NezhaUI3" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaSingleTaskActivity4" android:exported="false" android:taskAffinity=".NezhaUI4" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaSingleTaskProcessActivity0" android:exported="false" android:process=":nezha0" android:taskAffinity=".NezhaUI0" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaSingleTaskProcessActivity1" android:exported="false" android:process=":nezha1" android:taskAffinity=".NezhaUI1" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaSingleTaskProcessActivity2" android:exported="false" android:process=":nezha2" android:taskAffinity=".NezhaUI2" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaSingleTaskProcessActivity3" android:exported="false" android:process=":nezha3" android:taskAffinity=".NezhaUI3" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaSingleTaskProcessActivity4" android:exported="false" android:process=":nezha4" android:taskAffinity=".NezhaUI4" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaNormalActivity" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaNormalActivity1" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaNormalActivity2" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaNormalActivity3" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaNormalActivity4" android:exported="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <activity android:theme="ResourceValueType::Reference/2132148530" android:name="com.nezha.android.activity.NezhaMPNormalActivity" android:exported="false" android:process=":nezha5" android:screenOrientation="1" android:configChanges="0x1776" android:windowSoftInputMode="0x34"/>
+    <provider android:name="com.nezha.android.utils.NezhaProvider" android:exported="false" android:authorities="com.binance.dev.NezhaProvider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="ResourceValueType::Reference/2132279316"/>
+    </provider>
+    <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    <activity android:theme="ResourceValueType::Reference/2132148755" android:name="com.microblink.capture.CaptureActivity" android:exported="false"/>
+    <activity android:theme="ResourceValueType::Reference/16973840" android:name="cn.jiguang.privates.push.service.JNotifyActivity" android:permission="com.binance.dev.permission.JPUSH_MESSAGE" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="2">
+      <intent-filter>
+        <action android:name="cn.jiguang.privates.intent.JNotifyActivity"/>
+        <category android:name="com.binance.dev"/>
+      </intent-filter>
+    </activity>
+    <service android:name="com.bandroid.hydrogen.push.jpush.PushService" android:exported="true" android:process=":push">
+      <intent-filter>
+        <action android:name="cn.jiguang.privates.intent.USER_SERVICE"/>
+      </intent-filter>
+    </service>
+    <receiver android:name="com.bandroid.hydrogen.push.jpush.AppJPushMessageReceiver" android:exported="true" android:process=":push">
+      <intent-filter>
+        <action android:name="cn.jiguang.privates.intent.RECEIVE_MESSAGE"/>
+        <category android:name="com.binance.dev"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.bandroid.hydrogen.push.jpush.MyWakedResultReceiver" android:exported="true">
+      <intent-filter>
+        <action android:name="cn.jpush.android.intent.WakedReceiver"/>
+        <category android:name="com.binance.dev"/>
+      </intent-filter>
+    </receiver>
+    <service android:name="com.sumsub.sns.videoident.service.SNSVideoChatService" android:exported="false" android:foregroundServiceType="0x128"/>
+    <service android:name="com.kwai.koom.javaoom.monitor.analysis.HeapAnalysisService" android:exported="false" android:process=":heap_analysis"/>
+    <activity android:name="com.sumsub.sns.presentation.screen.SNSAppActivity" android:exported="false" android:screenOrientation="1"/>
+    <provider android:name="com.sumsub.sns.core.common.FileProvider" android:exported="false" android:authorities="com.binance.dev.provider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="ResourceValueType::Reference/2132279328"/>
+    </provider>
+    <service android:name="com.onfido.android.sdk.capture.ui.CrashHandlerService" android:enabled="true"/>
+    <activity android:name="com.onfido.android.sdk.capture.core.CoreActivity" android:process=":onfido_process" android:screenOrientation="7"/>
+    <activity android:label="ᜀ" android:name="com.onfido.android.sdk.capture.ui.OnfidoActivity" android:exported="false" android:process=":onfido_process" android:launchMode="2" android:screenOrientation="7" android:hardwareAccelerated="true"/>
+    <activity android:name="com.onfido.android.sdk.capture.ui.OnfidoSplashActivity" android:exported="false" android:launchMode="2" android:screenOrientation="7"/>
+    <activity android:label="ᜁ" android:name="com.onfido.android.sdk.capture.ui.camera.CaptureActivity" android:exported="false" android:process=":onfido_process" android:screenOrientation="7" android:hardwareAccelerated="true"/>
+    <provider android:name="com.onfido.android.sdk.capture.utils.OnfidoProcessMlKitProvider" android:exported="false" android:process=":onfido_process" android:authorities="com.binance.dev.onfido.mlkitinitprovider" android:initOrder="99"/>
+    <service android:name="com.onfido.android.sdk.capture.token.TokenExpirationHandlerService" android:exported="false"/>
+    <service android:name="com.onfido.android.sdk.capture.ui.OnfidoStarterService" android:exported="false" android:process=":onfido_process"/>
+    <service android:name="com.onfido.android.sdk.capture.ui.MainProcessStarterService" android:exported="false"/>
+    <meta-data android:name="flutterProjectType" android:value="module"/>
+    <meta-data android:name="flutterEmbedding" android:value="2"/>
+    <uses-library android:name="androidx.camera.extensions.impl" android:required="false"/>
+    <service android:name="androidx.camera.core.impl.MetadataHolderService" android:enabled="false" android:exported="false">
+      <meta-data android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER" android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+    </service>
+    <activity android:theme="ResourceValueType::Reference/2132150105" android:name="com.iproov.sdk.catch.do" android:exported="false" android:screenOrientation="1" android:configChanges="0x1540" android:keepScreenOn="true" android:hardwareAccelerated="true"/>
+    <activity android:theme="ResourceValueType::Reference/2132150105" android:name="com.iproov.sdk.catch.byte" android:exported="false" android:screenOrientation="9" android:configChanges="0x1540" android:keepScreenOn="true" android:hardwareAccelerated="true"/>
+    <activity android:theme="ResourceValueType::Reference/2132150105" android:name="com.iproov.sdk.catch.new" android:exported="false" android:screenOrientation="0" android:configChanges="0x1540" android:keepScreenOn="true" android:hardwareAccelerated="true"/>
+    <activity android:theme="ResourceValueType::Reference/2132150105" android:name="com.iproov.sdk.catch.for" android:exported="false" android:screenOrientation="8" android:configChanges="0x1540" android:keepScreenOn="true" android:hardwareAccelerated="true"/>
+    <activity android:theme="ResourceValueType::Reference/2132148941" android:label="ResourceValueType::Reference/2132097665" android:name="com.google.android.libraries.places.widget.AutocompleteActivity" android:exported="false" android:windowSoftInputMode="0x16"/>
+    <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false" android:directBootAware="true">
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.appcheck.playintegrity.FirebaseAppCheckPlayIntegrityRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+    </service>
+    <service android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService" android:exported="false" android:directBootAware="true">
+      <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+      <meta-data android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+    </service>
+    <service android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder" android:enabled="true" android:exported="false">
+      <meta-data android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY" android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl"/>
+    </service>
+    <activity android:theme="ResourceValueType::Reference/2132149352" android:name="androidx.credentials.playservices.HiddenActivity" android:enabled="true" android:exported="false" android:configChanges="0x1440" android:fitsSystemWindows="true"/>
+    <activity android:theme="ResourceValueType::Reference/16973840" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:exported="false" android:excludeFromRecents="true"/>
+    <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:exported="true" android:visibleToInstantApps="true"/>
+    <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+      </intent-filter>
+      <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+    </receiver>
+    <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="false" android:directBootAware="true">
+      <intent-filter android:priority="4294966796">
+        <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+      </intent-filter>
+    </service>
+    <activity android:theme="ResourceValueType::Reference/16973840" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+    <provider android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider" android:exported="false" android:authorities="com.binance.dev.flutter.image_provider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="ResourceValueType::Reference/2132279298"/>
+    </provider>
+    <receiver android:name="com.pravera.flutter_foreground_task.service.BootReceiver" android:enabled="true" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.pravera.flutter_foreground_task.service.RestartReceiver" android:enabled="true" android:exported="false"/>
+    <provider android:name="dev.fluttercommunity.plus.share.ShareFileProvider" android:exported="false" android:authorities="com.binance.dev.flutter.share_provider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="ResourceValueType::Reference/2132279299"/>
+    </provider>
+    <activity android:theme="ResourceValueType::Reference/16973831" android:name="io.flutter.plugins.urllauncher.WebViewActivity" android:exported="false"/>
+    <activity android:theme="ResourceValueType::Reference/2132148628" android:name="androidx.fragment.app.testing.EmptyFragmentActivity" android:exported="true" android:taskAffinity="" android:multiprocess="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+      </intent-filter>
+    </activity>
+    <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false"/>
+    <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false"/>
+    <service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+    <property android:name="android.adservices.AD_SERVICES_CONFIG" android:resource="ResourceValueType::Reference/2132279300"/>
+    <service android:name="com.google.firebase.sessions.SessionLifecycleService" android:enabled="true" android:exported="false"/>
+    <service android:name="androidx.work.impl.background.systemalarm.SystemAlarmService" android:enabled="ResourceValueType::Reference/2131034115" android:exported="false" android:directBootAware="false"/>
+    <service android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="ResourceValueType::Reference/2131034117" android:exported="true" android:directBootAware="false"/>
+    <service android:name="androidx.work.impl.foreground.SystemForegroundService" android:enabled="true" android:exported="false" android:directBootAware="false"/>
+    <receiver android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver" android:enabled="true" android:exported="false" android:directBootAware="false"/>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <intent-filter>
+        <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+        <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <intent-filter>
+        <action android:name="android.intent.action.BATTERY_OKAY"/>
+        <action android:name="android.intent.action.BATTERY_LOW"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <intent-filter>
+        <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+        <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <intent-filter>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+        <action android:name="android.intent.action.TIME_SET"/>
+        <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver" android:enabled="ResourceValueType::Reference/2131034115" android:exported="false" android:directBootAware="false">
+      <intent-filter>
+        <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP" android:enabled="true" android:exported="true" android:directBootAware="false">
+      <intent-filter>
+        <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+      </intent-filter>
+    </receiver>
+    <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+    <uses-library android:name="androidx.window.extensions" android:required="false"/>
+    <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+    <activity android:theme="ResourceValueType::Reference/2132149616" android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" android:exported="true">
+      <intent-filter android:priority="4294967196">
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="ResourceValueType::Reference/2132149616" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity" android:exported="true">
+      <intent-filter android:priority="4294967196">
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="ResourceValueType::Reference/2132149615" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity" android:exported="true">
+      <intent-filter android:priority="4294967196">
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <receiver android:name="com.bandroid.push.report.receiver.PushReportReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="com.bandroid.hydrogen.push.jpush.AbBandroidJpushReceiver"/>
+        <category android:name="com.binance.dev"/>
+      </intent-filter>
+    </receiver>
+    <uses-library android:name="android.ext.adservices" android:required="false"/>
+    <service android:name="androidx.room.MultiInstanceInvalidationService" android:exported="false" android:directBootAware="true"/>
+    <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" android:exported="false"/>
+    <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService" android:exported="false" android:process=":filedownloader"/>
+    <provider android:name="com.squareup.picasso.PicassoProvider" android:exported="false" android:authorities="com.binance.dev.com.squareup.picasso"/>
+    <service android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" android:exported="false">
+      <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+    </service>
+    <receiver android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP" android:enabled="true" android:exported="true" android:directBootAware="false">
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+      </intent-filter>
+    </receiver>
+    <service android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+    <receiver android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" android:exported="false"/>
+    <activity android:theme="ResourceValueType::Reference/2132150137" android:name="com.megvii.meglive_sdk.detect.fmp.FmpLivenessActivity" android:screenOrientation="1" android:configChanges="0x1184" android:hardwareAccelerated="true"/>
+    <activity android:theme="ResourceValueType::Reference/2132150137" android:name="com.megvii.meglive_sdk.detect.action.ActionLivenessActivity" android:screenOrientation="1" android:configChanges="0x1184" android:hardwareAccelerated="true"/>
+    <activity android:theme="ResourceValueType::Reference/2132150137" android:name="com.megvii.meglive_sdk.detect.color.FmpColorfulActivity" android:screenOrientation="1" android:configChanges="0x1184"/>
+    <activity android:theme="ResourceValueType::Reference/16973837" android:name="com.megvii.meglive_sdk.detect.guide.GrantActivity" android:screenOrientation="1" android:configChanges="0x1184"/>
+    <activity android:theme="ResourceValueType::Reference/16973837" android:name="com.megvii.meglive_sdk.detect.agreement.UserAgreementActivity" android:configChanges="0x1184"/>
+    <provider android:name="com.cardinalcommerce.a.setShowSoftInputOnFocus" android:enabled="true" android:exported="false" android:authorities="com.binance.dev.CCInitProvider"/>
+    <activity android:theme="ResourceValueType::Reference/2132148540" android:name="com.cardinalcommerce.a.setTextAppearance" android:exported="false"/>
+    <activity android:theme="ResourceValueType::Reference/2132148540" android:name="com.cardinalcommerce.a.setTextSelectHandleRight" android:exported="false" android:windowSoftInputMode="0x19"/>
+    <provider android:name="cn.jiguang.privates.core.service.DataProvider" android:exported="true" android:process=":push" android:authorities="com.binance.dev.DataProvider"/>
+    <receiver android:name="cn.jiguang.privates.core.service.PushReceiver" android:enabled="true" android:exported="false">
+      <intent-filter android:priority="1000">
+        <action android:name="cn.jiguang.privates.intent.NOTIFICATION_RECEIVED_PROXY"/>
+        <category android:name="com.binance.dev"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.USER_PRESENT"/>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="cn.jiguang.privates.core.service.AlarmReceiver"/>
+    <meta-data android:name="JIGUANG_PRIVATES_CHANNEL" android:value="developer-default"/>
+    <meta-data android:name="JIGUANG_PRIVATES_APPKEY" android:value="e3153c941eeae3a67cd9ea82"/>
+    <service android:name="cn.jpush.android.service.PushService" android:enabled="true" android:exported="true"/>
+    <service android:name="cn.jpush.android.service.DaemonService" android:enabled="true" android:exported="true">
+      <intent-filter>
+        <action android:name="cn.jpush.android.intent.DaemonService"/>
+        <category android:name="com.binance.dev"/>
+      </intent-filter>
+    </service>
+    <provider android:name="cn.jpush.android.service.DownloadProvider" android:exported="true" android:authorities="com.binance.dev.DownloadProvider"/>
+    <service android:name="cn.jiguang.privates.push.fcm.service.FcmMessageService" android:exported="false">
+      <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+      </intent-filter>
+    </service>
+    <activity android:theme="ResourceValueType::Reference/2132149430" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:exported="false" android:stateNotNeeded="true"/>
+    <provider android:name="com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider" android:enabled="true" android:exported="false" android:authorities="com.binance.dev.SensorsDataContentProvider"/>
+    <meta-data android:name="com.sensorsdata.analytics.android.MainProcessName" android:value="com.binance.dev"/>
+    <meta-data android:name="com.sensorsdata.analytics.android.version" android:value="0.2.10"/>
+    <activity android:theme="ResourceValueType::Reference/16973839" android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenCaptureAssistantActivity" android:screenOrientation="13" android:configChanges="0x1152"/>
+    <service android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenSharingService" android:foregroundServiceType="0x32"/>
+    <meta-data android:name="com.huawei.hms.client.service.name:ads-identifier" android:value="ads-identifier:3.4.39.302"/>
+    <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+    <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+    <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+    <meta-data android:name="com.android.vending.splits" android:resource="ResourceValueType::Reference/2132279331"/>
+    <meta-data android:name="com.android.vending.derived.apk.id" android:value="3"/>
+  </application>
+</manifest>
